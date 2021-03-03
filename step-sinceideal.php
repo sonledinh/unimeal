@@ -16,7 +16,7 @@
 					<h1>How long has it been since you were at your ideal weight?</h1> 
 				</div> 
 				<div class="box-step">
-					<form action="step-sinceideal.php" method="post">
+					<form action="step-eatinghabits.php" method="post">
 						<div class="list-body">
 							<div class="check-body">
 								<input type="submit" id="1001">
@@ -27,7 +27,7 @@
 										</div>
 									</div>
 								</label>
-							</div>
+							</div> 
 							<div class="check-body">
 								<input type="submit" id="1002">
 								<label for="1002">

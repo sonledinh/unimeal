@@ -181,6 +181,12 @@ main {
         color: rgb(92, 92, 92);
         text-align: left;
         padding: 0 15px;
+        transition: .4s all;
+        &:hover {
+            transition: .4s all;
+            border-color: rgb(238, 182, 0);
+            background: rgb(255, 247, 223);
+        }
     }
     img {
         position: absolute;
@@ -205,6 +211,11 @@ main {
         border-radius: 7px;
         padding: 14px 40px 14px 11px;
         background: transparent;
+        // transition: .4s all; 
+        &:focus {
+            background: rgb(234, 247, 246);
+            border: 1px solid rgb(0, 133, 122);
+        }
     }
 }
 
@@ -295,6 +306,12 @@ main {
         border: 2px solid rgb(245, 245, 245);
         justify-content: space-between;
         align-items: center;
+        transition: .4s all;
+        &:hover {
+            transition: .4s all;
+            border-color: rgb(238, 182, 0);
+            background: rgb(255, 247, 223);
+        }
         .desc {
             flex: 0 0 calc(100% - 100px);
         }
@@ -317,5 +334,136 @@ main {
         position: absolute;
         opacity: 0;
         z-index: -1;
+    }
+}
+.inp-abs {
+    .item-body {
+        padding-left: 45px;
+    }
+    label {
+        position: relative;
+    }
+    input[type=checkbox].check-img + label:before {
+        position: absolute;
+        top: calc(50% - 12px);
+        left: 12px;
+    }
+    input[type=checkbox].check-img:checked + label .item-body {
+      border-color: rgb(238, 182, 0);
+      background: rgb(255, 247, 223);
+    }
+}
+
+input[type=checkbox].check-img + label {
+  display: block;
+  cursor: pointer;
+}
+
+input[type=checkbox].check-img {
+  display: none;
+}
+
+input[type=checkbox].check-img + label:before {
+  content: url('../images/check-1.svg');
+  transition: 0.2s;
+  position: relative;
+  top: 6px;
+  margin-right: 10px;
+} 
+
+input[type=checkbox].check-img + label:active:before {
+  transform: scale(0);
+}
+
+input[type=checkbox].check-img:checked + label:before {
+  content: url('../images/check-2.svg');
+}
+
+input[type=checkbox].check-img.check-list-img:checked + label:before {
+  content: url('../images/check-3.svg');
+}
+
+input[type=checkbox].check-img:disabled + label:before {
+  transform: scale(1);
+  border-color: #aaa;
+}
+
+input[type=checkbox].check-img:checked:disabled + label:before {
+  transform: scale(1);
+  background-color: #bfb;
+  border-color: #bfb;
+}
+
+.choose-none {
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid #ddd; 
+    position: relative;
+    label {
+        color: rgb(226, 35, 54);
+        font-size: 20px;
+        font-weight: 500;
+    }
+    input {
+        display: none;
+    }
+    input[type=checkbox] + label {
+      display: block;
+      cursor: pointer;
+    }
+
+    input[type=checkbox] {
+      display: none;
+    }
+
+    input[type=checkbox] + label:before {
+      content: "";
+      transition: 0.2s;
+      width: 52px;
+      height: 30px;
+      background: rgb(232, 232, 232);
+      position: absolute;
+      top: 31px;
+      right: 0;
+      border-radius: 30px;
+    } 
+
+    input[type=checkbox] + label:after {
+        content: "";
+        display: block;
+        position: absolute;
+        background: rgb(255, 255, 255);
+        border-radius: 50%;
+        border: 0.5px solid rgba(0, 0, 0, 0.04);
+        box-shadow: rgb(0 0 0 / 15%) 0px 3px 8px;
+        height: 27px;
+        width: 27px;
+        top: 32px;
+        right: 23px;
+        transition: .4s all;
+    } 
+
+    input[type=checkbox] + label:active:before {
+      // transform: scale(0); 
+    }
+
+    input[type=checkbox]:checked + label:before {
+      background: rgb(226, 35, 54);
+    }
+
+    input[type=checkbox]:checked + label:after {
+      right: 2px;
+      transition: .4s all;
+    }
+
+    input[type=checkbox]:disabled + label:before {
+      // transform: scale(1); 
+      border-color: #aaa;
+    }
+
+    input[type=checkbox]:checked:disabled + label:before {
+      // transform: scale(1); 
+      background-color: #bfb;
+      border-color: #bfb;
     }
 }

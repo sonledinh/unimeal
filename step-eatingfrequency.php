@@ -13,7 +13,7 @@
 					</div>
 				</div>
 				<div class="title">
-					<h1>Do you experience stomach discomfort during the day?</h1> 
+					<h1>How many times a day do you want to eat?</h1> 
 				</div> 
 				<div class="desc-title">
 					<h3>We will plan your meals according to your preferences</h3>

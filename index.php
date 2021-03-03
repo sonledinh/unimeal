@@ -30,10 +30,10 @@
 			<div class="remember">
 				<ul>
 					<li>
-						<input type="checkbox" checked id="1001"><label for="1001">By continuing I agree with Terms of Service, Privacy Policy, Money-Back Policy, Subscription terms</label>
+						<input type="checkbox" class="check-img" checked id="1001"><label for="1001">By continuing I agree with Terms of Service, Privacy Policy, Money-Back Policy, Subscription terms</label>
 					</li>
 					<li>
-						<input type="checkbox" checked id="1002"><label for="1002">I would like to receive updates about products, services, and special offers from Unimeal via email</label>
+						<input type="checkbox" class="check-img" checked id="1002"><label for="1002">I would like to receive updates about products, services, and special offers from Unimeal via email</label>
 					</li>
 				</ul>
 			</div>

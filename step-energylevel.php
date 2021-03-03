@@ -9,26 +9,23 @@
 						<li class="list-inline-item"><span>7/20</span></li>
 					</ul>
 					<div class="line-step">
-						<div class="check-line" style="width: 30%;"></div>
+						<div class="check-line" style="width: 40%;"></div>
 					</div>
 				</div>
 				<div class="title">
-					<h1>Describe your typical day</h1> 
+					<h1>How is your energy from day to day?</h1> 
 				</div> 
-				<div class="desc-title">
-					<p>Men in their 20+, who want to lose weight, require a more personalized approach depending on the current lifestyle.</p>
-				</div>
 				<div class="box-step">
-					<form action="step-stomachdiscomfort.php" method="post">
+					<form action="step-sleep.php" method="post">
 						<div class="list-body">
 							<div class="check-body">
 								<input type="submit" id="1001">
 								<label for="1001">
 									<div class="item-body">
 										<div class="desc">
-											<h4 style="margin-bottom: 0;">At the office</h4>
+											<h4 style="margin-bottom: 0;">Steady</h4>
 										</div>
-										<div class="avarta"><img src="images/typical-1.svg" class="img-fluid" alt=""></div>
+										<div class="avarta"><img src="images/energylevel-1.svg" class="img-fluid" alt=""></div>
 									</div>
 								</label>
 							</div>
@@ -37,9 +34,9 @@
 								<label for="1001">
 									<div class="item-body">
 										<div class="desc">
-											<h4 style="margin-bottom: 0;">Daily long  walks</h4>
+											<h4 style="margin-bottom: 0;">Dragging  before meals</h4>
 										</div>
-										<div class="avarta"><img src="images/typical-2.svg" class="img-fluid" alt=""></div>
+										<div class="avarta"><img src="images/energylevel-2.svg" class="img-fluid" alt=""></div>
 									</div>
 								</label>
 							</div>
@@ -48,23 +45,12 @@
 								<label for="1001">
 									<div class="item-body">
 										<div class="desc">
-											<h4 style="margin-bottom: 0;">Physical work</h4>
+											<h4 style="margin-bottom: 0;">Post lunch slump</h4>
 										</div>
-										<div class="avarta"><img src="images/typical-3.svg" class="img-fluid" alt=""></div>
+										<div class="avarta"><img src="images/energylevel-3.svg" class="img-fluid" alt=""></div>
 									</div>
 								</label>
-							</div>
-							<div class="check-body">
-								<input type="submit" id="1001">
-								<label for="1001">
-									<div class="item-body">
-										<div class="desc">
-											<h4 style="margin-bottom: 0;">Mostly at home</h4>
-										</div>
-										<div class="avarta"><img src="images/typical-4.svg" class="img-fluid" alt=""></div>
-									</div>
-								</label>
-							</div>
+							</div> 
 						</div>
 					</form>
 				</div>

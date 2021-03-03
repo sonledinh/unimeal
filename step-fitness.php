@@ -9,62 +9,70 @@
 						<li class="list-inline-item"><span>7/20</span></li>
 					</ul>
 					<div class="line-step">
-						<div class="check-line" style="width: 30%;"></div>
+						<div class="check-line" style="width: 40%;"></div>
 					</div>
 				</div>
 				<div class="title">
-					<h1>Describe your typical day</h1> 
+					<h1>Do you workout?</h1> 
 				</div> 
 				<div class="desc-title">
-					<p>Men in their 20+, who want to lose weight, require a more personalized approach depending on the current lifestyle.</p>
+					<div class="desc">
+						<p>It is important to take into consideration the activity level for a Man who wants to gain 28 kg and is mostly at home</p>
+					</div>
 				</div>
 				<div class="box-step">
-					<form action="step-stomachdiscomfort.php" method="post">
+					<form action="step-energylevel.php" method="post">
 						<div class="list-body">
 							<div class="check-body">
 								<input type="submit" id="1001">
 								<label for="1001">
 									<div class="item-body">
-										<div class="desc">
-											<h4 style="margin-bottom: 0;">At the office</h4>
+										<div class="desc" style="flex: 0 0 100%">
+											<h4 style="margin-bottom: 0;">Almost nothing</h4>
 										</div>
-										<div class="avarta"><img src="images/typical-1.svg" class="img-fluid" alt=""></div>
 									</div>
 								</label>
-							</div>
+							</div> 
 							<div class="check-body">
 								<input type="submit" id="1001">
 								<label for="1001">
 									<div class="item-body">
-										<div class="desc">
-											<h4 style="margin-bottom: 0;">Daily long  walks</h4>
+										<div class="desc" style="flex: 0 0 100%">
+											<h4 style="margin-bottom: 0;">Only walks</h4>
 										</div>
-										<div class="avarta"><img src="images/typical-2.svg" class="img-fluid" alt=""></div>
 									</div>
 								</label>
-							</div>
+							</div> 
 							<div class="check-body">
 								<input type="submit" id="1001">
 								<label for="1001">
 									<div class="item-body">
-										<div class="desc">
-											<h4 style="margin-bottom: 0;">Physical work</h4>
+										<div class="desc" style="flex: 0 0 100%">
+											<h4 style="margin-bottom: 0;">1-2 times a week</h4>
 										</div>
-										<div class="avarta"><img src="images/typical-3.svg" class="img-fluid" alt=""></div>
 									</div>
 								</label>
-							</div>
+							</div> 
 							<div class="check-body">
 								<input type="submit" id="1001">
 								<label for="1001">
 									<div class="item-body">
-										<div class="desc">
-											<h4 style="margin-bottom: 0;">Mostly at home</h4>
+										<div class="desc" style="flex: 0 0 100%">
+											<h4 style="margin-bottom: 0;">3-5 times a week</h4>
 										</div>
-										<div class="avarta"><img src="images/typical-4.svg" class="img-fluid" alt=""></div>
 									</div>
 								</label>
-							</div>
+							</div> 
+							<div class="check-body">
+								<input type="submit" id="1001">
+								<label for="1001">
+									<div class="item-body">
+										<div class="desc" style="flex: 0 0 100%">
+											<h4 style="margin-bottom: 0;">5-7 times a week</h4>
+										</div>
+									</div>
+								</label>
+							</div> 
 						</div>
 					</form>
 				</div>

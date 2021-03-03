@@ -23,7 +23,7 @@
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-md-6">
-                        <div class="logo"><a href=""><img src="images/logo.svg" class="img-fluid" alt=""></a></div>
+                        <div class="logo"><a href="index.php"><img src="images/logo.svg" class="img-fluid" alt=""></a></div>
                     </div>
                     <div class="col-md-6 text-right">
                         <div class="translate">
