@@ -5,11 +5,11 @@
 			<div class="wrapper">
 				<div class="step">
 					<ul class="list-inline">
-						<li class="list-inline-item"><a href=""><i class="fa fa-angle-left"></i> Previous step</a></li>
-						<li class="list-inline-item"><span>7/20</span></li>
+						<li class="list-inline-item"><a href="step-cereals.php"><i class="fa fa-angle-left"></i> Previous step</a></li>
+						<li class="list-inline-item"><span>19/20</span></li>
 					</ul>
 					<div class="line-step">
-						<div class="check-line" style="width: 40%;"></div>
+						<div class="check-line" style="width: 95%;"></div>
 					</div>
 				</div>
 				<div class="title">
@@ -30,7 +30,7 @@
 								</label>
 							</div> 
 							<div class="check-body inp-abs">
-								<input type="checkbox" id="1002" class="check-img check-list-img">
+								<input type="checkbox" id="1002" class="check-img check-list-img" disabled>
 								<label for="1002">
 									<div class="item-body">
 										<div class="desc">
@@ -41,7 +41,7 @@
 								</label>
 							</div> 
 							<div class="check-body inp-abs">
-								<input type="checkbox" id="1003" class="check-img check-list-img">
+								<input type="checkbox" id="1003" class="check-img check-list-img" disabled>
 								<label for="1003">
 									<div class="item-body">
 										<div class="desc">
@@ -52,7 +52,7 @@
 								</label>
 							</div> 
 							<div class="check-body inp-abs">
-								<input type="checkbox" id="1004" class="check-img check-list-img">
+								<input type="checkbox" id="1004" class="check-img check-list-img" disabled>
 								<label for="1004">
 									<div class="item-body">
 										<div class="desc">

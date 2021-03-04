@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nội thất chính hãng</title>
+    <title>unimeal</title>
     <!--link css-->
     <link rel="stylesheet" type="text/css" title="" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" title="" href="css/font-awesome.css">
@@ -22,10 +22,10 @@
         <div class="header-menu">
             <div class="container-fluid">
                 <div class="row align-items-center">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-6">
                         <div class="logo"><a href="index.php"><img src="images/logo.svg" class="img-fluid" alt=""></a></div>
                     </div>
-                    <div class="col-md-6 text-right">
+                    <div class="col-md-6 col-6 text-right">
                         <div class="translate">
                             <select name="" id="">
                                 <option value="">EN</option>

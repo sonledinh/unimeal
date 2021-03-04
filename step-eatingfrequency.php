@@ -5,11 +5,11 @@
 			<div class="wrapper">
 				<div class="step">
 					<ul class="list-inline">
-						<li class="list-inline-item"><a href=""><i class="fa fa-angle-left"></i> Previous step</a></li>
-						<li class="list-inline-item"><span>7/20</span></li>
+						<li class="list-inline-item"><a href="step-stomachdiscomfort.php"><i class="fa fa-angle-left"></i> Previous step</a></li>
+						<li class="list-inline-item"><span>8/20</span></li>
 					</ul>
 					<div class="line-step">
-						<div class="check-line" style="width: 30%;"></div>
+						<div class="check-line" style="width: 40%;"></div>
 					</div>
 				</div>
 				<div class="title">

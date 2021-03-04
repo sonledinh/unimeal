@@ -8,7 +8,7 @@
 			<div class="step-goal">
 				<form action="step-gender.php" method="post">
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-6 col-sm-6">
 							<div class="item-goal item-goal-yes">
 								<div class="avarta"><img src="images/goal-1.png" alt="" class="img-fluid"></div>
 								<div class="inp-check">
@@ -16,7 +16,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-6 col-sm-6">
 							<div class="item-goal item-goal-no">
 								<div class="avarta"><img src="images/goal-2.png" alt="" class="img-fluid"></div>
 								<div class="inp-check">

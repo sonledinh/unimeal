@@ -5,7 +5,7 @@
 			<div class="wrapper">
 				<div class="step">
 					<ul class="list-inline">
-						<li class="list-inline-item"><a href=""><i class="fa fa-angle-left"></i> Previous step</a></li>
+						<li class="list-inline-item"><a href="step-measures.php"><i class="fa fa-angle-left"></i> Previous step</a></li>
 						<li class="list-inline-item"><span>5/20</span></li>
 					</ul>
 					<div class="line-step">
