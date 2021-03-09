@@ -1,5 +1,6 @@
 <?php include 'header.php';?>
 <main>
+	<div class="line-load"></div>
 	<section class="header-result">
 		<div class="container">
 			<div class="box-result">

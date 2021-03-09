@@ -970,4 +970,21 @@ input[type=checkbox].check-img:disabled + label .item-body {
 
 .chart-coll {
     margin-top: 46px;
+} 
+
+.line-load {
+    width: 5px;
+    height: 5px;
+    background: #ff9234;
+    transition: 1s all !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    &.active {
+        width: 100%;
+    }
+    &.hide {
+        opacity: 0;
+    }
 }

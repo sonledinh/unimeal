@@ -1,4 +1,11 @@
 $(document).ready(function(){
+
+    setTimeout(function(){
+        $('.line-load').addClass('active');
+    }, 200);
+    setTimeout(function(){
+        $('.line-load.active').addClass('hide');
+    }, 1200);
     
     $('ul.tabs li').click(function(){
         var tab_id = $(this).attr('data-tab');
