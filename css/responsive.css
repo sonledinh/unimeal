@@ -166,6 +166,70 @@
 	.result {
 	    margin-top: 150px;
 	}
+	.result-pri {
+	    margin: 100px 0 0 0;
+	    padding: 30px 0;
+	}
+
+	.pricing-page .txt h1 {
+	    font-size: 30px;
+	}
+
+	.pricing-page .txt {
+	    font-size: 15px;
+	    margin-bottom: 30px;
+	    margin-top: 20px;
+	}
+
+	.payment {
+	    padding: 30px 0;
+	}
+
+	.pricing-page .txt h2 {
+	    font-size: 22px;
+	}
+
+	.payment .avarta {
+	}
+
+	.people {
+	    padding: 30px 0;
+	}
+
+	.title-pri h2 {
+	    font-size: 26px;
+	    margin-bottom: 20px;
+	}
+
+	.people-ask {
+	    padding: 30px 0;
+	}
+
+	.list-ask .item {
+	    display: block;
+	    padding: 15px;
+	}
+
+	.list-ask .item .icon {
+	    margin-bottom: 15px;
+	}
+
+	.list-ask .item .info h3 {
+	    font-size: 20px;
+	}
+
+	.money-back {
+	    margin-top: 20px;
+	    padding: 30px 0;
+	}
+
+	.pricing-page .txt {
+	    padding-left: 0;
+	}
+
+	.pay-pri {
+	    padding: 20px 0 0 0;
+	}
 }
 
 @media (max-width: 575px) {

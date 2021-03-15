@@ -25,7 +25,7 @@
 					<div class="info-forec">
 						<div class="row">
 							<div class="col-md-6">
-								<div class="chart-for">
+								<div class="chart-for">  
 									<p>Weight loss forecast</p>
 									<div class="num">-2 kg by April 2021</div>
 									<div class="chart-coll">
