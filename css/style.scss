@@ -1146,7 +1146,7 @@ input[type=checkbox].check-img:disabled + label .item-body {
         font-size: 15px;
         font-weight: 500;
         .icon {
-            flex: 0 0 40px;
+            flex: 0 0 40px; 
             margin-right: 12px;
         }
     }
@@ -1162,4 +1162,46 @@ input[type=checkbox].check-img:disabled + label .item-body {
 }
 .pay-pri {
     padding: 60px 0 20px 0;
+}
+
+.btn-pri {
+    display: none;
+    &.active {
+        display: block;
+    }
+}
+.form-pricing {
+    input {
+        margin-bottom: 15px;
+        &:last-child { 
+            margin-bottom: 0;
+        }
+    }
+    .inp-prc {
+        width: 100%;
+        font-size: 15px;
+        padding: 0 15px;
+        border-radius: 30px;
+        border: 1px solid #aaa;
+        height: 40px;
+    }
+    .btn-prc {
+        width: 100%;
+        background: red;
+        border: 1px solid red;
+        height: 40px;
+        border-radius: 30px;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 15px;
+        cursor: pointer;
+        &:hover {
+            background: #fff;
+            color: red;
+        }
+    }
+    &.active {
+        display: none;
+    }
 }

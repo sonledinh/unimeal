@@ -56,4 +56,8 @@ $(document).ready(function(){
         $(this).next().slideToggle('400');
     });
 
+    $( ".btn-prc" ).click(function() {
+        $('.form-pricing, .btn-pri').toggleClass('active');
+    });
+
 })

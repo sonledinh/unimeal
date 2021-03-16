@@ -53,6 +53,11 @@
 								<li>Fat-burning Workouts</li>
 								<li>Expert analysis of your nutritional needs</li>
 							</ul>
+							<div class="form-pricing"> 
+								<input type="text" placeholder="Nhập Email" class="inp-prc">
+								<input type="text" placeholder="Nhập Pasword" class="inp-prc">
+								<input type="submit" class="btn-prc" value="Tiếp tục">
+							</div>
 							<div class="btn-pri">
 								<div class="item text-center"><a href="">Price to be paid: USD 50</a></div>
 								<div class="item text-center"><a href="">Card</a></div>
